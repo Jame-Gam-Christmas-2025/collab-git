@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1117531639",
+    "Type": "User",
+    "GUID": "{6D9FC872-1EFE-47CF-BF86-3CDC6B30EF44}",
+    "Color": "4",
+    "Language": "SFX",
+    "Hash": "{9E805CD7-BC38-8F15-D9EB-8713A1B0B34D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\AMB_WU\\AMB",
+    "ShortName": "AMB",
+    "Path": "AMB.bnk",
+    "Media": [
+     {
+      "Id": "265474481",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB\\AMB_PAD_Cave_LP.wav",
+      "CachePath": "84/{84C6F6F5-5714-3284-59AA-8B86489C0736}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2314402090",
+      "Name": "Play_AMB_Cave",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMB_WU\\Play_AMB_Cave",
+      "GUID": "{66D63644-E5E7-4148-A1A6-B623CB4889A3}",
+      "Color": "4",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "265474481"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B822D6E3-E613-7EFE-626E-84DBE2B86559}"
+ }
+}
