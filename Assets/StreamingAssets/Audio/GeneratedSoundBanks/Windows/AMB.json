@@ -11,18 +11,18 @@
     "GUID": "{6D9FC872-1EFE-47CF-BF86-3CDC6B30EF44}",
     "Color": "4",
     "Language": "SFX",
-    "Hash": "{9E805CD7-BC38-8F15-D9EB-8713A1B0B34D}",
+    "Hash": "{23D4B596-F90F-6FC4-9837-6B6648901AB9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\AMB_WU\\AMB",
     "ShortName": "AMB",
     "Path": "AMB.bnk",
     "Media": [
      {
-      "Id": "265474481",
+      "Id": "588241917",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "AMB\\AMB_PAD_Cave_LP.wav",
-      "CachePath": "84/{84C6F6F5-5714-3284-59AA-8B86489C0736}.wem"
+      "ShortName": "MC\\MUS_Odyssey_LP.wav",
+      "CachePath": "15/{152E6A7E-ACC7-3950-FAED-6427BD49F26F}.wem"
      }
     ],
     "Events": [
@@ -35,13 +35,13 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "265474481"
+        "Id": "588241917"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{B822D6E3-E613-7EFE-626E-84DBE2B86559}"
+  "FileHash": "{CE9049FB-3CA8-8D49-A99C-1C711457200F}"
  }
 }
