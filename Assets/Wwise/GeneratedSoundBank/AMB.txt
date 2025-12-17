@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2314402090	Play_AMB_Cave			\Default Work Unit\AMB_WU\Play_AMB_Cave	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	265474481	Amb_PAD_Cave_LP	.cache\84\{84C6F6F5-5714-3284-59AA-8B86489C0736}.wem		\Containers\Default Work Unit\AMB_WU\AMB\Amb_PAD_Cave_LP		10944096
+

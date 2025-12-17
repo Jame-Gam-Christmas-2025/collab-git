@@ -1,0 +1,249 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1685527061",
+    "Type": "User",
+    "GUID": "{0C378A59-D232-4A8F-8632-A2994EB9B6CF}",
+    "Color": "19",
+    "Language": "SFX",
+    "Hash": "{412E06F6-930E-B0FA-3761-EF1762F18AF7}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MC_WU\\MC",
+    "ShortName": "MC",
+    "Path": "MC.bnk",
+    "Media": [
+     {
+      "Id": "68205907",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MC\\FOL_Walk_Gravel _01.wav",
+      "CachePath": "7F/{7F4A204E-7EF0-5B67-3E37-A2EC6FCD4DE5}.wem"
+     },
+     {
+      "Id": "125039848",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MC\\FOL_Walk_Gravel _05.wav",
+      "CachePath": "64/{642FC161-5B44-DCF0-71C0-DA0E29759DD7}.wem"
+     },
+     {
+      "Id": "160668886",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MC\\FOL_Walk_Grass_Tiny_04.wav",
+      "CachePath": "58/{58BEA157-CDCB-B1F4-8E80-C5F3F8D69AC8}.wem"
+     },
+     {
+      "Id": "266421232",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MC\\FOL_Walk_Grass_Tiny_02.wav",
+      "CachePath": "EF/{EFF88F0E-C8E3-838C-4906-BDFD5335B8C4}.wem"
+     },
+     {
+      "Id": "280436708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MC\\FOL_Walk_Grass_Tiny_03.wav",
+      "CachePath": "F4/{F4AAAC4B-3559-39B3-2C8E-7B421F02F055}.wem"
+     },
+     {
+      "Id": "593254943",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MC\\FOL_Walk_Grass_Tiny_01.wav",
+      "CachePath": "30/{3034AC4B-6A48-1356-2CEF-F936F58B1DDB}.wem"
+     },
+     {
+      "Id": "629425088",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MC\\FOL_Walk_Grass_Tiny_05.wav",
+      "CachePath": "D5/{D5DC04DB-3234-BC53-35A6-F587C67ACF26}.wem"
+     },
+     {
+      "Id": "637315023",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MC\\FOL_Walk_Gravel _03.wav",
+      "CachePath": "C6/{C692E808-A6F9-99D4-7546-A9CE1A2FD98E}.wem"
+     },
+     {
+      "Id": "797674652",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MC\\FOL_Walk_Gravel _02.wav",
+      "CachePath": "AC/{ACE5A56A-B554-7AF4-6EBA-B1D9069BF82F}.wem"
+     },
+     {
+      "Id": "966802411",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MC\\FOL_Walk_Gravel _04.wav",
+      "CachePath": "62/{629018F2-D57F-57E7-8B10-BE7C156185B6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\MC_WU\\Play_Footsteps",
+      "GUID": "{1C909107-C888-443D-9C7F-962FD736BEDB}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23333333",
+      "DurationMax": "0.23333333",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "197902822",
+         "Id": "2095016128",
+         "GUID": "{6E662547-5590-41FF-B981-9274598B0922}",
+         "Color": "19",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "160668886"
+         },
+         {
+          "Id": "266421232"
+         },
+         {
+          "Id": "280436708"
+         },
+         {
+          "Id": "593254943"
+         },
+         {
+          "Id": "629425088"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "197902822",
+         "Id": "4054918909",
+         "GUID": "{C3A984D5-AF25-415D-B244-A4F6A86E0701}",
+         "Color": "19"
+        },
+        "MediaRefs": [
+         {
+          "Id": "68205907"
+         },
+         {
+          "Id": "125039848"
+         },
+         {
+          "Id": "637315023"
+         },
+         {
+          "Id": "797674652"
+         },
+         {
+          "Id": "966802411"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "197902822",
+         "Id": "2095016128",
+         "GUID": "{6E662547-5590-41FF-B981-9274598B0922}",
+         "Color": "19",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "160668886"
+         },
+         {
+          "Id": "266421232"
+         },
+         {
+          "Id": "280436708"
+         },
+         {
+          "Id": "593254943"
+         },
+         {
+          "Id": "629425088"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "197902822",
+         "Id": "4054918909",
+         "GUID": "{C3A984D5-AF25-415D-B244-A4F6A86E0701}",
+         "Color": "19"
+        },
+        "MediaRefs": [
+         {
+          "Id": "68205907"
+         },
+         {
+          "Id": "125039848"
+         },
+         {
+          "Id": "637315023"
+         },
+         {
+          "Id": "797674652"
+         },
+         {
+          "Id": "966802411"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "197902822",
+      "Name": "SW_MC_Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\MC_WU\\SW_MC_Footsteps",
+      "GUID": "{EB03CE95-52DC-47A0-84CB-A1977ADFDAB4}",
+      "Color": "19",
+      "Switches": [
+       {
+        "Id": "2095016128",
+        "Name": "MC_Footsteps_Leaf",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MC_WU\\SW_MC_Footsteps\\MC_Footsteps_Leaf",
+        "GUID": "{6E662547-5590-41FF-B981-9274598B0922}",
+        "Color": "19"
+       },
+       {
+        "Id": "4054918909",
+        "Name": "MC_Footsteps_Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MC_WU\\SW_MC_Footsteps\\MC_Footsteps_Gravel",
+        "GUID": "{C3A984D5-AF25-415D-B244-A4F6A86E0701}",
+        "Color": "19"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E130DBB7-6BA2-96D8-0141-5FD817A9C6E4}"
+ }
+}

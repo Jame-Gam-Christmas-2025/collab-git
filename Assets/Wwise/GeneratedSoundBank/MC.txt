@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3854155799	Play_Footsteps			\Default Work Unit\MC_WU\Play_Footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	197902822	SW_MC_Footsteps			\Default Work Unit\MC_WU\SW_MC_Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	2095016128	MC_Footsteps_Leaf	SW_MC_Footsteps			
+	4054918909	MC_Footsteps_Gravel	SW_MC_Footsteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	68205907	FOL_Walk_Gravel _01	.cache\7F\{7F4A204E-7EF0-5B67-3E37-A2EC6FCD4DE5}.wem		\Containers\Default Work Unit\MC_WU\MC\Footsteps\MC_Footsteps_Gravel\FOL_Walk_Gravel _01		22496
+	125039848	FOL_Walk_Gravel _05	.cache\64\{642FC161-5B44-DCF0-71C0-DA0E29759DD7}.wem		\Containers\Default Work Unit\MC_WU\MC\Footsteps\MC_Footsteps_Gravel\FOL_Walk_Gravel _05		22496
+	160668886	FOL_Walk_Grass_Tiny_04	.cache\58\{58BEA157-CDCB-B1F4-8E80-C5F3F8D69AC8}.wem		\Containers\Default Work Unit\MC_WU\MC\Footsteps\MC_Footsteps_Leaf\FOL_Walk_Grass_Tiny_04		44896
+	266421232	FOL_Walk_Grass_Tiny_02	.cache\EF\{EFF88F0E-C8E3-838C-4906-BDFD5335B8C4}.wem		\Containers\Default Work Unit\MC_WU\MC\Footsteps\MC_Footsteps_Leaf\FOL_Walk_Grass_Tiny_02		44896
+	280436708	FOL_Walk_Grass_Tiny_03	.cache\F4\{F4AAAC4B-3559-39B3-2C8E-7B421F02F055}.wem		\Containers\Default Work Unit\MC_WU\MC\Footsteps\MC_Footsteps_Leaf\FOL_Walk_Grass_Tiny_03		44896
+	593254943	FOL_Walk_Grass_Tiny_01	.cache\30\{3034AC4B-6A48-1356-2CEF-F936F58B1DDB}.wem		\Containers\Default Work Unit\MC_WU\MC\Footsteps\MC_Footsteps_Leaf\FOL_Walk_Grass_Tiny_01		44896
+	629425088	FOL_Walk_Grass_Tiny_05	.cache\D5\{D5DC04DB-3234-BC53-35A6-F587C67ACF26}.wem		\Containers\Default Work Unit\MC_WU\MC\Footsteps\MC_Footsteps_Leaf\FOL_Walk_Grass_Tiny_05		44896
+	637315023	FOL_Walk_Gravel _03	.cache\C6\{C692E808-A6F9-99D4-7546-A9CE1A2FD98E}.wem		\Containers\Default Work Unit\MC_WU\MC\Footsteps\MC_Footsteps_Gravel\FOL_Walk_Gravel _03		22496
+	797674652	FOL_Walk_Gravel _02	.cache\AC\{ACE5A56A-B554-7AF4-6EBA-B1D9069BF82F}.wem		\Containers\Default Work Unit\MC_WU\MC\Footsteps\MC_Footsteps_Gravel\FOL_Walk_Gravel _02		22496
+	966802411	FOL_Walk_Gravel _04	.cache\62\{629018F2-D57F-57E7-8B10-BE7C156185B6}.wem		\Containers\Default Work Unit\MC_WU\MC\Footsteps\MC_Footsteps_Gravel\FOL_Walk_Gravel _04		22496
+

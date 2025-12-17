@@ -1,0 +1,11 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	323187407	Reverb_Cave			\Default Work Unit\Main Audio Bus\REV_WU\Reverb_Cave	
+	1117531639	AMB			\Default Work Unit\Main Audio Bus\AMB_WU\AMB	
+	1685527061	MC			\Default Work Unit\Main Audio Bus\MC_WU\MC	
+	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+	2385628198	Footsteps			\Default Work Unit\Main Audio Bus\MC_WU\MC\Footsteps	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
