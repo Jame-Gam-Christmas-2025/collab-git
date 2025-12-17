@@ -1,7 +1,10 @@
-﻿ using UnityEngine;
+﻿using UnityEngine;
+using AK.Wwise;
+
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
+ 
 
 /* Note: animations are called via the controller for both the character and capsule using animator null checks
  */
@@ -78,7 +81,18 @@ namespace StarterAssets
         private float _cinemachineTargetPitch;
 
         // Camera starting position and rotation
-private Vector3 _cameraStartingPosition;
+        
+        [Header("Footsteps")]
+        public AK.Wwise.Event MC_Footsteps;
+
+        public void MC_Footsteps_Play()
+        {
+            {
+                MC_Footsteps.Post(gameObject);
+            }
+        }
+
+        private Vector3 _cameraStartingPosition;
 private Quaternion _cameraStartingRotation;
 
 // Variable to indicate if we are resetting the camera 
@@ -103,6 +117,8 @@ public bool IsRespawning { get; set; } = false;
         private int _animIDJump;
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
+        
+        
 
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
